@@ -10,24 +10,12 @@
 
 from turtle import *
 
-forward(100)
-left(120)
-forward(100)
-
-# Hold skærmen åben
-mainloop()
-
-"""
-turtle.getscreen()
-t = turtle.Turtle()
-
 def draw_polygon(sides, side_len):
-    t.reset()
+    reset()
     for side in range(sides):
-        t.fd(side_len)
-        t.rt(360/sides)
+        fd(side_len)
+        rt(360/sides)
 
-for i in range(2, 16):
-    draw_polygon(i, 25)
 
-t.screen.mainloop()"""
+draw_polygon(5, 100)
+mainloop()

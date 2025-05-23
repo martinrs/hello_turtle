@@ -4,6 +4,8 @@ import random
 # https://www.thegrove3d.com/learn/da-vincis-rule-of-trees/
 # https://www.thegrove3d.com/learn/the-golden-angle-in-trees/
 
+# Parametrisering i draw_tree-funktion()
+
 start_width = 100
 start_len = 200
 
